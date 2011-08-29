@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		368CECA1140B812600BD47FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368CECA0140B812600BD47FE /* UIKit.framework */; };
+		368CECA3140B812600BD47FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368CECA2140B812600BD47FE /* Foundation.framework */; };
+		368CECA5140B812600BD47FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368CECA4140B812600BD47FE /* CoreGraphics.framework */; };
+		368CECAB140B812600BD47FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 368CECA9140B812600BD47FE /* InfoPlist.strings */; };
+		368CECAD140B812600BD47FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 368CECAC140B812600BD47FE /* main.m */; };
+		368CECB1140B812600BD47FE /* dreamcenter_apps_libAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 368CECB0140B812600BD47FE /* dreamcenter_apps_libAppDelegate.m */; };
+		368CECB5140B812600BD47FE /* dreamcenter_apps_libAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 368CECB4140B812600BD47FE /* dreamcenter_apps_libAppDelegate_iPhone.m */; };
+		368CECB8140B812600BD47FE /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 368CECB6140B812600BD47FE /* MainWindow_iPhone.xib */; };
+		368CECBC140B812600BD47FE /* dreamcenter_apps_libAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 368CECBB140B812600BD47FE /* dreamcenter_apps_libAppDelegate_iPad.m */; };
+		368CECBF140B812600BD47FE /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 368CECBD140B812600BD47FE /* MainWindow_iPad.xib */; };
+		368CECC7140B812600BD47FE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368CECC6140B812600BD47FE /* SenTestingKit.framework */; };
+		368CECC8140B812600BD47FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368CECA0140B812600BD47FE /* UIKit.framework */; };
+		368CECC9140B812600BD47FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368CECA2140B812600BD47FE /* Foundation.framework */; };
+		368CECCA140B812600BD47FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368CECA4140B812600BD47FE /* CoreGraphics.framework */; };
+		368CECD2140B812600BD47FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 368CECD0140B812600BD47FE /* InfoPlist.strings */; };
+		368CECD4140B812600BD47FE /* dreamcenter_apps_libTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 368CECD3140B812600BD47FE /* dreamcenter_apps_libTests.h */; };
+		368CECD6140B812700BD47FE /* dreamcenter_apps_libTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 368CECD5140B812600BD47FE /* dreamcenter_apps_libTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		368CECCB140B812600BD47FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 368CEC93140B812600BD47FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 368CEC9B140B812600BD47FE;
+			remoteInfo = dreamcenter_apps_lib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		368CEC9C140B812600BD47FE /* dreamcenter_apps_lib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dreamcenter_apps_lib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		368CECA0140B812600BD47FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		368CECA2140B812600BD47FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		368CECA4140B812600BD47FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		368CECA8140B812600BD47FE /* dreamcenter_apps_lib-Info.plist */ = {isa = PBXFileReference; path = "dreamcenter_apps_lib-Info.plist"; sourceTree = "<group>"; };
+		368CECAA140B812600BD47FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		368CECAC140B812600BD47FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		368CECAE140B812600BD47FE /* dreamcenter_apps_lib-Prefix.pch */ = {isa = PBXFileReference; path = "dreamcenter_apps_lib-Prefix.pch"; sourceTree = "<group>"; };
+		368CECAF140B812600BD47FE /* dreamcenter_apps_libAppDelegate.h */ = {isa = PBXFileReference; path = dreamcenter_apps_libAppDelegate.h; sourceTree = "<group>"; };
+		368CECB0140B812600BD47FE /* dreamcenter_apps_libAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dreamcenter_apps_libAppDelegate.m; sourceTree = "<group>"; };
+		368CECB3140B812600BD47FE /* dreamcenter_apps_libAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = dreamcenter_apps_libAppDelegate_iPhone.h; path = iPhone/dreamcenter_apps_libAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		368CECB4140B812600BD47FE /* dreamcenter_apps_libAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = dreamcenter_apps_libAppDelegate_iPhone.m; path = iPhone/dreamcenter_apps_libAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		368CECB7140B812600BD47FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		368CECBA140B812600BD47FE /* dreamcenter_apps_libAppDelegate_iPad.h */ = {isa = PBXFileReference; name = dreamcenter_apps_libAppDelegate_iPad.h; path = iPad/dreamcenter_apps_libAppDelegate_iPad.h; sourceTree = "<group>"; };
+		368CECBB140B812600BD47FE /* dreamcenter_apps_libAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = dreamcenter_apps_libAppDelegate_iPad.m; path = iPad/dreamcenter_apps_libAppDelegate_iPad.m; sourceTree = "<group>"; };
+		368CECBE140B812600BD47FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		368CECC5140B812600BD47FE /* dreamcenter_apps_libTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dreamcenter_apps_libTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		368CECC6140B812600BD47FE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		368CECCF140B812600BD47FE /* dreamcenter_apps_libTests-Info.plist */ = {isa = PBXFileReference; path = "dreamcenter_apps_libTests-Info.plist"; sourceTree = "<group>"; };
+		368CECD1140B812600BD47FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		368CECD3140B812600BD47FE /* dreamcenter_apps_libTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dreamcenter_apps_libTests.h; sourceTree = "<group>"; };
+		368CECD5140B812600BD47FE /* dreamcenter_apps_libTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dreamcenter_apps_libTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		368CEC99140B812600BD47FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368CECA1140B812600BD47FE /* UIKit.framework in Frameworks */,
+				368CECA3140B812600BD47FE /* Foundation.framework in Frameworks */,
+				368CECA5140B812600BD47FE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368CECC1140B812600BD47FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368CECC7140B812600BD47FE /* SenTestingKit.framework in Frameworks */,
+				368CECC8140B812600BD47FE /* UIKit.framework in Frameworks */,
+				368CECC9140B812600BD47FE /* Foundation.framework in Frameworks */,
+				368CECCA140B812600BD47FE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		368CEC91140B812600BD47FE = {
+			isa = PBXGroup;
+			children = (
+				368CECA6140B812600BD47FE /* dreamcenter_apps_lib */,
+				368CECCD140B812600BD47FE /* dreamcenter_apps_libTests */,
+				368CEC9F140B812600BD47FE /* Frameworks */,
+				368CEC9D140B812600BD47FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		368CEC9D140B812600BD47FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				368CEC9C140B812600BD47FE /* dreamcenter_apps_lib.app */,
+				368CECC5140B812600BD47FE /* dreamcenter_apps_libTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		368CEC9F140B812600BD47FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				368CECA0140B812600BD47FE /* UIKit.framework */,
+				368CECA2140B812600BD47FE /* Foundation.framework */,
+				368CECA4140B812600BD47FE /* CoreGraphics.framework */,
+				368CECC6140B812600BD47FE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		368CECA6140B812600BD47FE /* dreamcenter_apps_lib */ = {
+			isa = PBXGroup;
+			children = (
+				368CECAF140B812600BD47FE /* dreamcenter_apps_libAppDelegate.h */,
+				368CECB0140B812600BD47FE /* dreamcenter_apps_libAppDelegate.m */,
+				368CECB2140B812600BD47FE /* iPhone */,
+				368CECB9140B812600BD47FE /* iPad */,
+				368CECA7140B812600BD47FE /* Supporting Files */,
+			);
+			path = dreamcenter_apps_lib;
+			sourceTree = "<group>";
+		};
+		368CECA7140B812600BD47FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				368CECA8140B812600BD47FE /* dreamcenter_apps_lib-Info.plist */,
+				368CECA9140B812600BD47FE /* InfoPlist.strings */,
+				368CECAC140B812600BD47FE /* main.m */,
+				368CECAE140B812600BD47FE /* dreamcenter_apps_lib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		368CECB2140B812600BD47FE /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				368CECB3140B812600BD47FE /* dreamcenter_apps_libAppDelegate_iPhone.h */,
+				368CECB4140B812600BD47FE /* dreamcenter_apps_libAppDelegate_iPhone.m */,
+				368CECB6140B812600BD47FE /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		368CECB9140B812600BD47FE /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				368CECBA140B812600BD47FE /* dreamcenter_apps_libAppDelegate_iPad.h */,
+				368CECBB140B812600BD47FE /* dreamcenter_apps_libAppDelegate_iPad.m */,
+				368CECBD140B812600BD47FE /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		368CECCD140B812600BD47FE /* dreamcenter_apps_libTests */ = {
+			isa = PBXGroup;
+			children = (
+				368CECD3140B812600BD47FE /* dreamcenter_apps_libTests.h */,
+				368CECD5140B812600BD47FE /* dreamcenter_apps_libTests.m */,
+				368CECCE140B812600BD47FE /* Supporting Files */,
+			);
+			path = dreamcenter_apps_libTests;
+			sourceTree = "<group>";
+		};
+		368CECCE140B812600BD47FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				368CECCF140B812600BD47FE /* dreamcenter_apps_libTests-Info.plist */,
+				368CECD0140B812600BD47FE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		368CEC9B140B812600BD47FE /* dreamcenter_apps_lib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368CECD9140B812700BD47FE /* Build configuration list for PBXNativeTarget "dreamcenter_apps_lib" */;
+			buildPhases = (
+				368CEC98140B812600BD47FE /* Sources */,
+				368CEC99140B812600BD47FE /* Frameworks */,
+				368CEC9A140B812600BD47FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dreamcenter_apps_lib;
+			productName = dreamcenter_apps_lib;
+			productReference = 368CEC9C140B812600BD47FE /* dreamcenter_apps_lib.app */;
+			productType = "com.apple.product-type.application";
+		};
+		368CECC4140B812600BD47FE /* dreamcenter_apps_libTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368CECDC140B812700BD47FE /* Build configuration list for PBXNativeTarget "dreamcenter_apps_libTests" */;
+			buildPhases = (
+				368CECC0140B812600BD47FE /* Sources */,
+				368CECC1140B812600BD47FE /* Frameworks */,
+				368CECC2140B812600BD47FE /* Resources */,
+				368CECC3140B812600BD47FE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				368CECCC140B812600BD47FE /* PBXTargetDependency */,
+			);
+			name = dreamcenter_apps_libTests;
+			productName = dreamcenter_apps_libTests;
+			productReference = 368CECC5140B812600BD47FE /* dreamcenter_apps_libTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		368CEC93140B812600BD47FE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 368CEC96140B812600BD47FE /* Build configuration list for PBXProject "dreamcenter_apps_lib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 368CEC91140B812600BD47FE;
+			productRefGroup = 368CEC9D140B812600BD47FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				368CEC9B140B812600BD47FE /* dreamcenter_apps_lib */,
+				368CECC4140B812600BD47FE /* dreamcenter_apps_libTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		368CEC9A140B812600BD47FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368CECAB140B812600BD47FE /* InfoPlist.strings in Resources */,
+				368CECB8140B812600BD47FE /* MainWindow_iPhone.xib in Resources */,
+				368CECBF140B812600BD47FE /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368CECC2140B812600BD47FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368CECD2140B812600BD47FE /* InfoPlist.strings in Resources */,
+				368CECD4140B812600BD47FE /* dreamcenter_apps_libTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		368CECC3140B812600BD47FE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		368CEC98140B812600BD47FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368CECAD140B812600BD47FE /* main.m in Sources */,
+				368CECB1140B812600BD47FE /* dreamcenter_apps_libAppDelegate.m in Sources */,
+				368CECB5140B812600BD47FE /* dreamcenter_apps_libAppDelegate_iPhone.m in Sources */,
+				368CECBC140B812600BD47FE /* dreamcenter_apps_libAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368CECC0140B812600BD47FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368CECD6140B812700BD47FE /* dreamcenter_apps_libTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		368CECCC140B812600BD47FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 368CEC9B140B812600BD47FE /* dreamcenter_apps_lib */;
+			targetProxy = 368CECCB140B812600BD47FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		368CECA9140B812600BD47FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				368CECAA140B812600BD47FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		368CECB6140B812600BD47FE /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				368CECB7140B812600BD47FE /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		368CECBD140B812600BD47FE /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				368CECBE140B812600BD47FE /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		368CECD0140B812600BD47FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				368CECD1140B812600BD47FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		368CECD7140B812700BD47FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		368CECD8140B812700BD47FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		368CECDA140B812700BD47FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dreamcenter_apps_lib/dreamcenter_apps_lib-Prefix.pch";
+				INFOPLIST_FILE = "dreamcenter_apps_lib/dreamcenter_apps_lib-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		368CECDB140B812700BD47FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dreamcenter_apps_lib/dreamcenter_apps_lib-Prefix.pch";
+				INFOPLIST_FILE = "dreamcenter_apps_lib/dreamcenter_apps_lib-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		368CECDD140B812700BD47FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/dreamcenter_apps_lib.app/dreamcenter_apps_lib";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dreamcenter_apps_lib/dreamcenter_apps_lib-Prefix.pch";
+				INFOPLIST_FILE = "dreamcenter_apps_libTests/dreamcenter_apps_libTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		368CECDE140B812700BD47FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/dreamcenter_apps_lib.app/dreamcenter_apps_lib";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dreamcenter_apps_lib/dreamcenter_apps_lib-Prefix.pch";
+				INFOPLIST_FILE = "dreamcenter_apps_libTests/dreamcenter_apps_libTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		368CEC96140B812600BD47FE /* Build configuration list for PBXProject "dreamcenter_apps_lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368CECD7140B812700BD47FE /* Debug */,
+				368CECD8140B812700BD47FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		368CECD9140B812700BD47FE /* Build configuration list for PBXNativeTarget "dreamcenter_apps_lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368CECDA140B812700BD47FE /* Debug */,
+				368CECDB140B812700BD47FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		368CECDC140B812700BD47FE /* Build configuration list for PBXNativeTarget "dreamcenter_apps_libTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368CECDD140B812700BD47FE /* Debug */,
+				368CECDE140B812700BD47FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 368CEC93140B812600BD47FE /* Project object */;
+}
